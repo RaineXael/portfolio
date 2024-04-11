@@ -1,17 +1,9 @@
 
-import './App.css'
+import { MainMenu } from './pages/mainmenu/MainMenu'
 
 function App() {
-
-
   return (
-    <>
-      <div>
-       <h1>Site in Progress</h1>
-       <p>If you can see this, automated deployment works! Nice.</p>
-      </div>
-      
-    </>
+    <MainMenu/>
   )
 }
 
