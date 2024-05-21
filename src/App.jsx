@@ -1,17 +1,9 @@
 
-import './App.css'
-import { HexMap } from './HexagonMap/Hexagon'
+import { MainMenu } from './pages/mainmenu/MainMenu'
 
 function App() {
-
-
   return (
-    <>
-      <div>
-       <HexMap/>
-      </div>
-      
-    </>
+    <MainMenu/>
   )
 }
 
