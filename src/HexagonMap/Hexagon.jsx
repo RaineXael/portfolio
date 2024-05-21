@@ -16,21 +16,21 @@ export function HexMap() {
     // return(grid.map(el=>{return <div key={el.q+el.r} >{JSON.stringify(el)}</div>}));
 
     return (
-        <div className="flex max-w-xl space-x-3 overflow-x-scroll scrollbar-hide"
+        <div className="flex .h-screen max-w-xl space-x-3 overflow-x-scroll scrollbar-hide"
             {...events}
             ref={ref}>
-            <div className='row'>
+            <div >
                 <Hexagon
-                    className='small-hex'
-                    style={{ stroke: '#42873f', width: 100 }}
+                   
+                    style={{ stroke: '#42873f', height: 100 }}
                 />
                 <Hexagon
-                    className='small-hex'
-                    style={{ stroke: '#42873f', width: 100 }}
+                  
+                    style={{ stroke: '#42873f', height: 100 }}
                 />
                 <Hexagon
-                    className='small-hex'
-                    style={{ stroke: '#42873f', width: 100 }}
+           
+                    style={{ stroke: '#42873f', height: 100 }}
                 />
             </div>
         </div>
