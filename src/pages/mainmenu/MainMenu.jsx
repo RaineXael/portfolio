@@ -12,9 +12,8 @@ function MainMenuContent() {
             </audio>  */}
             
             <TitleBar/>
-            <div className="bg-opacity-25 bg-indigo-500 h-96 border-indigo-900 drop-shadow-md border-4 border-x-0">
-
-                <h1 className="text-4xl font-bold text-indigo-900 py-2 w-full text-center w-full">Projects</h1>
+            <div className="bg-opacity-25 bg-indigo-500 h-auto border-indigo-900 drop-shadow-md border-4 border-x-0 p-8 my-16">
+                <h1 className="text-4xl font-bold text-indigo-900 py-4 w-full text-center w-full">Projects</h1>
                 <ProjectRoulette/>
             </div>
         </div>

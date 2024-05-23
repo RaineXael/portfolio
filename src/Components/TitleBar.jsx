@@ -4,7 +4,7 @@ import twitter from '../assets/icons/twitter-fill.svg'
 import feed from '../assets/icons/rss-fill.svg'
 export function TitleBar() {
     return (
-        <div className="border-indigo-900 border-4 bg-opacity-25 bg-indigo-500 w-1/2 rounded-br-full rounded-tr-full border-l-0 select-none py-6 px-8 my-32 drop-shadow-md">
+        <div className="border-indigo-900 border-4 bg-opacity-25 bg-indigo-500 w-1/2 rounded-br-full rounded-tr-full border-l-0 select-none py-6 px-8 my-24 drop-shadow-md">
             <div className="w-60 w-full py-2">
                 <h1 className="text-6xl font-bold text-indigo-50 w-full text-center w-full">RaineXael</h1>
                 <div className='flex flex-row justify-evenly w-full'>
