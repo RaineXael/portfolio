@@ -38,7 +38,7 @@ export const Projects = [
                 title: "FirstCast",
                 desc: "I interned at 'Les Entreprises Puggum' to help develop their fishing app, which helps fishermen find the right lures for the day's conditions.",
                 urls: [
-                   
+                   "http://puggum.ca/"
                 ]
             },
             {
@@ -59,5 +59,26 @@ export const Projects = [
             }
         ]
     },
-    
+    {
+        category:"Tools",
+        data: [
+            {
+                tags:["Python"],
+                title: "pycord-twitter-downloader",
+                desc: "A tool that downloads Twitter / X posts from a Discord channel.",
+                urls: [
+                   "https://github.com/RaineXael/pycord-twitter-downloader"
+                ]
+            },
+            {
+                tags:["JS"],
+                title: "Discord-Twitter-Effector ",
+                desc: "A tool that turns every twitter.com or x.com url in a Discord channel into an fxtwitter.com URL. Useful back when twitter embeds were broken on Discord.",
+                urls: [
+                   "https://github.com/RaineXael/Discord-Twitter-Effector"
+                ]
+            },
+   
+        ]
+    },
 ]

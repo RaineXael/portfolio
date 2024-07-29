@@ -3,7 +3,7 @@ import React from 'react';
 //import kaizo from '../../assets/kaizo.mp3'
 import { ProjectRoulette } from '../../Components/ProjectRoulette';
 import { TitleBar } from '../../Components/TitleBar';
-import { DescriptionBar } from '../../Components/DescriptionBar';
+// import { DescriptionBar } from '../../Components/DescriptionBar';
 
 function MainMenuContent() {
     return (
@@ -13,7 +13,7 @@ function MainMenuContent() {
             </audio>  */}
             
             <TitleBar/>
-            <DescriptionBar/>
+            {/* <DescriptionBar/> */}
             <div className="bg-opacity-25 bg-indigo-500 h-auto border-indigo-900 drop-shadow-md border-4 border-x-0 p-8 my-16">
                 <h1 className="text-4xl font-bold text-indigo-900 py-4 w-full text-center w-full">Projects</h1>
                 <ProjectRoulette/>
