@@ -32,7 +32,7 @@ function ProjectCategory({name,data}){
 function ProjectBox({name,desc, url}){
     return(
         <a href={url}>
-        <div className="drop-shadow-md bg-opacity-75 bg-green-300 h-64 w-64 border-indigo-900 border-4 flex flex-col rounded-lg text-center flex-shrink-0">           
+        <div className="drop-shadow-md bg-opacity-75 bg-green-300 h-72 w-72 border-indigo-900 border-4 flex flex-col rounded-lg text-center flex-shrink-0 p-1">           
                 <h1 className="text-xl font-bold">{name}</h1>
                 <p>{desc}</p>           
         </div>
