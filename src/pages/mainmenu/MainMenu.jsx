@@ -1,23 +1,23 @@
 import CLOUDS from 'vanta/dist/vanta.clouds.min'
 import React from 'react';
 //import kaizo from '../../assets/kaizo.mp3'
-import { ProjectRoulette } from '../../Components/ProjectRoulette';
-import { TitleBar } from '../../Components/TitleBar';
+//import { ProjectRoulette } from '../../Components/ProjectRoulette';
+//import { TitleBar } from '../../Components/TitleBar';
 // import { DescriptionBar } from '../../Components/DescriptionBar';
-
+import {TitleBarBasic} from '../../Components/TitleBarBasic'
 function MainMenuContent() {
     return (
-        <div className='overflow-scroll h-dvh'>
+        <div className='text-center h-screen'>
             {/* <audio autoPlay="true" loop="true">
             <source src={kaizo} type="audio/mpeg"/>
             </audio>  */}
-            
-            <TitleBar/>
+            <TitleBarBasic/>
+            {/* <TitleBar/> */}
             {/* <DescriptionBar/> */}
-            <div className="bg-opacity-25 bg-indigo-500 h-auto border-indigo-900 drop-shadow-md border-4 border-x-0 p-8 my-16">
+            {/* <div className="bg-opacity-25 bg-indigo-500 h-auto border-indigo-900 drop-shadow-md border-4 border-x-0 p-8 my-16">
                 <h1 className="text-4xl font-bold text-indigo-900 py-4 w-full text-center w-full">Projects</h1>
                 <ProjectRoulette/>
-            </div>
+            </div> */}
         </div>
     );
 }
